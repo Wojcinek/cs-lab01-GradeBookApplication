@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-public class GradeBook.GradeBooks
+namespace GradeBook.GradeBooks
 {
-	public StandardGradeBook : BaseGradeBook()
+	class StandardGradeBook : BaseGradeBook
 	{
 	public StandardGradeBook(string name) : base(name)
 		{
