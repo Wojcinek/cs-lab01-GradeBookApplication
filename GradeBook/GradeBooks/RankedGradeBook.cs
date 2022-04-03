@@ -13,7 +13,7 @@ namespace GradeBook.GradeBooks
 
         public override char GetLetterGrade(double averageGrade)
         {
-            if (StudentCount() > 5)
+            if (StudentCount() < 5)
             {
                 throw new InvalidOperationException("Not enough students");
             }
